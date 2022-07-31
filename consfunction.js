@@ -33,3 +33,5 @@ let city3 = new city("mumbai", 2000000, "pvt employee", "warm");
 
 console.log(city1.name + " " + city2.name + " " + city3.name);
 console.table(city1.name + city1.population);
+
+function test() {}

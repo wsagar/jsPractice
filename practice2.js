@@ -307,9 +307,4 @@ for (let i = 0; i <= 5; i++) {
   console.log("hello");
 }
 
-// for (let i = 2; i <= 6; i + 2) {
-//   if (i === 4) {
-//     break;
-//   }
-//   console.log(i);
-}
+for (let i = 2; i <= 6; i + 1) {}
