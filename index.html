@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <!-- <script src="./script.js"></script> -->
+    <script>
+      function fn() {}
+      function save() {}
+      function add() {
+        const num1 = document.getElementById("number1").value;
+        const num2 = document.getElementById("number2").value;
+        const result = document.getElementById("result");
+        result.innerHTML = parseInt(num1) + parseInt(num2);
+      }
+    </script>
+  </head>
+  <body>
+    <input
+      type="number"
+      placeholder="Number 1"
+      id="number1"
+      data-cy="number1"
+    />
+    <input type="number" placeholder="Number 2" id="number2" />
+    <h1 id="result"></h1>
+    <button onclick="add()">Add</button>
+
+    <button onclick="save()">save</button>
+  </body>
+</html>
