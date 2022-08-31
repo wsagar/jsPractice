@@ -68,14 +68,6 @@ if (a + b > 100) {
 }
 //console.log(calculate(10, 20, 30));
 
-let arr = [1, 2, 3, 4, 6, 7, 8, 9];
-let j = 0;
-while (arr[j] != 5 && j < arr.length) {
-  j++;
-  //console.log(j);
-}
-console.log(j);
-
 // for (j = 0; j < arr.length; j++) {
 //   if (arr[j] == 5) {
 //     break;
@@ -126,3 +118,11 @@ function assigngrade(score) {
   }
 }
 console.log(assigngrade(88));
+
+let arr = [1, 2, 3, 4, 6, 7, 8, 9];
+let j = 0;
+while (arr[j] != 5 && j < arr.length) {
+  j++;
+  //console.log(j);
+}
+console.log(j);

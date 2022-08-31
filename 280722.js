@@ -14,12 +14,6 @@ if (totalprize > 10000 && totalprize <= 20000) {
 //  falsy ---> 0 ,null ,undefined ,NaN ,'',false, 8 !== 8
 // truthy---> 7 , 'a', '@sdf', "hello", -44 , true , 8 === 8
 
-if (" ") {
-  console.log("hi");
-} else {
-  console.log("hey");
-}
-
 // switchcase
 
 let player = "tiger";
@@ -104,3 +98,57 @@ switch (balanceorder) {
   default:
     console.log("whole order is pending");
 }
+
+let totalprize1 = 10000;
+if (totalprize > 2000 && totalprize <= 5000) {
+  console.log("10% discount");
+} else if (totalprize > 5000 && totalprize <= 10000) {
+  console.log("20% discount");
+} else {
+  console.log("30% discount");
+}
+
+function fn4() {
+  let prize = 5100;
+  if (prize > 5000 && prize <= 10000) {
+    console.log("happy to give you 10% discount");
+  } else if (prize > 10000 && prize <= 20000) {
+    console.log("happy to give you 20% discount");
+  } else if (prize > 20000 && prize <= 30000) {
+    console.log("happy to give you 30% discount");
+  } else {
+    console.log("no discount");
+  }
+}
+fn4();
+
+let employee = "ajinkya";
+switch (employee) {
+  case "sagar":
+    console.log("production");
+
+    break;
+  case "pratik":
+    console.log("npd");
+    break;
+
+  case "ajinkya":
+    console.log("qc");
+    break;
+
+  case "rushi":
+    console.log("acc");
+    break;
+
+  default:
+    console.log("no employee");
+}
+
+function av() {
+  if (9 != 8) {
+    console.log("hi");
+  } else {
+    console.log("hey");
+  }
+}
+av();

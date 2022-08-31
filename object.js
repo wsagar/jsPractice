@@ -257,15 +257,16 @@ employees.forEach(function (ele) {
 });
 
 console.log(employeeswith5exp);
-
-let city1 = {
-  names: "gevrai",
-  state: "maharashtra",
-  population: 50000,
-  distance: 250,
-};
-for (let property in city1) {
-  console.log(property, city1[property]);
+function fn0() {
+  let city1 = {
+    names: "gevrai",
+    state: "maharashtra",
+    population: 50000,
+    distance: 250,
+  };
+  for (let property in city1) {
+    console.log(property, city1[property]);
+  }
 }
 
 let student3 = {
@@ -343,4 +344,5 @@ console.log(hh);
 let gn = hh / states.length;
 console.log(gn);
 
-
+console.table(hh);
+fn0();
