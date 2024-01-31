@@ -5,6 +5,7 @@ let person = {
   city: "pune",
 
   info: function () {
+  
     console.log(
       `${this.f_name} ${this.l_name} whose age is ${this.age} and leaves in ${this.city}`
     );
@@ -136,12 +137,13 @@ let car1 = {
 };
 
 
-  veh_info: function () {
+  veh_info=function () {
     console.log(
       `${this.brand} comes in the type of ${this.type} with ${this.drive} having prize worth rs ${this.prize}`
     );
-  },
+  }
 
+let x=10
 
 let car2 = {
   brand: "mercidez",
